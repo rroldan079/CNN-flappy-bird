@@ -14,6 +14,8 @@ pygame.display.set_icon(icon)
 
 score = 0
 bird = Player()
+bird2 = Player()
+bird3 = Player()
 text = pygame.font.SysFont("Arial", 24, True)
 score_board = text.render(str(score), "black", True)
 
